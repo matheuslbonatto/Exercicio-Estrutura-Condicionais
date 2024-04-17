@@ -8,7 +8,8 @@ public class Exercicio1 {
         e verifica se é maior de idade ou não (considerando que a maioridade seja aos 18 anos) */
 
     System.out.printf("Informe o seu ano de nascimento: ");
-     double AnoNasci = scanner.nextDouble();
+     int AnoNasci = scanner.nextInt();
+     
 
     if (( 2024 - AnoNasci ) >= 18) {
          System.out.println("Parabéns, você tem mais de 18 anos!");

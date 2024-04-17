@@ -8,7 +8,7 @@ public class Exercicio2 {
           e verifica se ela é menor de idade (menor que 18 anos) ou maior de idade. */
 
     System.out.printf("Informe sua idade: ");
-    Double UsuarioIdade = scanner.nextDouble();
+    int UsuarioIdade = scanner.nextInt();
 
     if (UsuarioIdade > 18) {
         System.out.println("Parabéns, você tem mais que 18 anos!");
