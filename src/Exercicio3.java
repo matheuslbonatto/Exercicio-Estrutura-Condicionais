@@ -12,14 +12,14 @@ public class Exercicio3 {
 System.out.printf("Infome a temperatura em graus Celcius: ");
 double GrausCelcius = scanner.nextDouble();
 
-double Conversao = (((GrausCelcius * 9)/5) + 32) ; 
-double Fahrenheit = -273.15;
+double Conversao = ((GrausCelcius * (9/5) + 32)) ; 
+double CelciusZeroAbsoluto = -273.15;
 
-if (Conversao < Fahrenheit) {
+if (GrausCelcius < CelciusZeroAbsoluto) {
     System.out.println("Zero Absoluto");
 }
 else {
-    System.out.println( Conversao + " Fahrenheit");
+    System.out.println( "Temperatura em Fahrenheit é: " + Conversao );
 }
 
 scanner.close();
