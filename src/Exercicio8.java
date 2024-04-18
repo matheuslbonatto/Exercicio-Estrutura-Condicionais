@@ -7,7 +7,7 @@ public class Exercicio8 {
     /*Desenvolva um programa que pede ao usuário para digitar um ano 
     e verifica se é bissexto ou não. 
     Um ano é bissexto se for divisível por 4, mas não por 100, a menos que também seja divisível por 400. */
-    Integer ano;
+    int ano;
     
     System.out.println("Verificador de Ano Bissexto!");
     System.out.printf("Digite um ano: ");

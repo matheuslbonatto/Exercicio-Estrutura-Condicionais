@@ -17,10 +17,10 @@ public class Exercicio7 {
 
     if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U'||
         letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u' ) {
-        System.out.printf("A letra %s, é uma vogal!", letra);
+        System.out.printf("A letra %c, é uma vogal!", letra);
     }
     else{
-        System.out.printf("A Letra %s, não é uma vogal!", letra);
+        System.out.printf("A Letra %c, é uma consoante!", letra);
     }
 
 

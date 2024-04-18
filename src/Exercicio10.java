@@ -6,7 +6,7 @@ public class Exercicio10 {
         /*Crie um programa que recebe o salário de um funcionário 
           e verifica se ele está acima do salário mínimo atual */
     double salario;
-    double salarioBase = 1412.00;
+    final double salarioBase = 1412.00;
 
     System.out.printf("Informe seu salário: ");
     salario = scanner.nextDouble();

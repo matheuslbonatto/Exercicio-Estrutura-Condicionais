@@ -17,8 +17,8 @@ public class Exercicio9 {
     System.out.printf("Informe seu sexo M/F: ");
     sexo = scanner.next().charAt(0);
 
-       if ((sexo == 'M' && altura >= 160 && altura <= 190 ) ||
-          (sexo == 'F' && altura >= 150 && altura <= 180)) 
+       if ((sexo == 'M' || sexo == 'm' && altura >= 160 && altura <= 190 ) ||
+           (sexo == 'F' || sexo == 'f' && altura >= 150 && altura <= 180)) 
     {
         System.out.println("Paranbéns,você está dentro dos padrões de altura considerados normais!");
     } else {
