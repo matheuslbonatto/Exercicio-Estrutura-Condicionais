@@ -6,7 +6,6 @@ public class Exercicio4 {
     
     /*Desenvolva um programa que verifica se um número é divisível por 7. */
     int Dividendo ;
-    int Divisor = 7;
     int Resultado ;
 
     System.out.printf("Informe um nuemro: ");
@@ -14,13 +13,13 @@ public class Exercicio4 {
 
     //Divisão da operação
     
-    Resultado = Divisor % Dividendo ;
+    Resultado = Dividendo % 7;
 
     if (Resultado == 0) {
-        System.out.println("É divisivel por 7");
+        System.out.printf("O número %d é divisivel por 7", Dividendo);
         }
     else{
-        System.out.println("Não é divisivel por 7");
+        System.out.printf("O número %d não é divisivel por 7", Dividendo);
     }
  scanner.close();
 }   
